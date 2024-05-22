@@ -162,3 +162,10 @@ console.log(placeToVisit);
 console.log("Reverse Order:", placeToVisit.slice().sort().reverse());
 // • Showing that array is still in its original order by printing it again.
 console.log(placeToVisit);
+// • Reversing the order of list. Print the array to show that its order has changed.
+console.log("Reverse Order changed");
+placeToVisit.reverse();
+console.log(placeToVisit);
+// • Reverse the order of your list again. Print the list to show it’s back to its original order.
+console.log("Original Order:", placeToVisit.sort());
+console.log(placeToVisit);
