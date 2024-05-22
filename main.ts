@@ -188,6 +188,15 @@ guestlist.splice(0, guestlist.length);
 console.log(`Updated list of guest: ${guestlist}`);
 
 // Assignment no 18
-let placeToVisit: string[] = ["Makka","Madina","Quit","Baghdad","Palestine"];
+let placeToVisit: string[] = ["Al Makka","Al Madina","Quit","Baghdad","Palestine"];
 // print in orignal order
 console.log(placeToVisit);
+// • Print your array in alphabetical order without modifying the actual list
+console.log("Alphabetical Order:", placeToVisit.slice().sort());
+// • Showing array is still in its original order by printing it.
+console.log(placeToVisit);
+// • Print array in reverse alphabetical order without changing the order of the original list.
+console.log("Reverse Order:", placeToVisit.slice().sort().reverse());
+// • Showing that array is still in its original order by printing it again.
+console.log(placeToVisit);
+

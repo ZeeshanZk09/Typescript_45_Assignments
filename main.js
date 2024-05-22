@@ -143,10 +143,22 @@ while (guestlist.length > 2) {
     }
 }
 // • Print a message to each of the two people still on your list, letting them know they’re still invited.
-guestlist.forEach(Guest => {
+guestlist.forEach((Guest) => {
     console.log(`Dear ${Guest} you are still invited for the dinner`);
 });
 // remove 2 names from list
 guestlist.splice(0, guestlist.length);
 // print updatedempty list
 console.log(`Updated list of guest: ${guestlist}`);
+// Assignment no 18
+let placeToVisit = ["Al Makka", "Al Madina", "Quit", "Baghdad", "Palestine"];
+// print in orignal order
+console.log(placeToVisit);
+// • Print your array in alphabetical order without modifying the actual list
+console.log("Alphabetical Order:", placeToVisit.slice().sort());
+// • Showing array is still in its original order by printing it.
+console.log(placeToVisit);
+// • Print array in reverse alphabetical order without changing the order of the original list.
+console.log("Reverse Order:", placeToVisit.slice().sort().reverse());
+// • Showing that array is still in its original order by printing it again.
+console.log(placeToVisit);
