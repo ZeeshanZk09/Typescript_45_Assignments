@@ -182,17 +182,17 @@ console.log(placeToVisit);
 console.log("Reverse Alphabetical Order changed:", placeToVisit.sort().reverse());
 console.log(placeToVisit);
 // Assignment no 19
-//continue with exercise_14
+//continue with Assignment_14
 //Guest list
 let guestList = ["Zeeshan", "Rehan", "Fahad"];
-//continue with exercise_15
+//continue with Assignment_15
 //replaced guest
 let absentGuest = "Rehan";
 let newGuest = "Mubeen";
 guestList[1] = newGuest;
 console.log(`${absentGuest} is not coming to the party.\n`);
 console.log(guestList);
-//continue with exercise_16
+//continue with Assignment_16
 console.log(`Good News! we find big table so we are inviting 3 more guests.\n`);
 guestList.unshift("Kumail");
 console.log(guestList[0]);
@@ -203,7 +203,7 @@ console.log(`${guestList[guestList.length - 1]} \n`);
 for (let i = 0; i < guestList.length; i++) {
     console.log(`Dear ${guestList[i]} It is our pleasure to invite you in our party.\nThank You!\n`);
 }
-//continue with exercise_17
+//continue with Assignment_17
 console.log("Sorry we can not arrange big table, only two peoples will be invited.");
 while (guestList.length > 2) {
     let remove_guest = guestList.pop();
@@ -215,7 +215,7 @@ for (let i = 0; i < guestList.length; i++) {
 console.log(guestList);
 guestList.splice(0, 2);
 console.log(guestList);
-//exercise_19
+// ==> assignment_19
 console.log(`\nTotal number of guest is: ${guestList.length}`);
 // Assignment no 20
 let computerAccesories = [
@@ -248,8 +248,6 @@ console.log(errorArray[1]);
 let car = "subaru";
 console.log("Is car == 'subaru'? I predict True.");
 console.log(car == "subaru");
-// • Look closely at your results, and make sure you understand why each line evaluates to True or False.
-// • Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
 //Making a variables
 let num1 = 4;
 let num2 = 7;
@@ -270,7 +268,7 @@ console.log("\nTest 5: num1 is smaller than num2?");
 console.log(num1 < num2);
 //Test 6
 console.log("\nTest 6: Is the sum of num1 and num2 is equal to 11?");
-console.log(Boolean(num2 += num1));
+console.log(Boolean((num2 += num1)));
 //Test 7
 console.log("\nTest 7: 4 is equal to 7?");
 console.log(num1 == num2);
@@ -328,17 +326,145 @@ console.log('Test "ladyfinger" in the array: ', vegNames.includes("ladyfinger"))
 // • Test whether an item is not in an array
 console.log('Testing "tomato" is not in array: ', !vegNames.includes("tomato"));
 // Assignment no 25
-// •Write an if statement to test whether the alien’s color is green. If it is,
-//  print a message that the player just earned 5 points.
-// •Write one version of this program that passes the if test and another that fails.
-//  (The version that fails will have no output.)
 // Version 1: Passes the if test (alien_color is 'green')
-let alien_color_pass = 'green';
-if (alien_color_pass === 'green') {
+let alien_color_pass = "green";
+if (alien_color_pass === "green") {
     console.log("Congratulations! You just earned 5 points.");
 }
 // Version 2: Fails the if test (alien_color is 'yellow')
-let alien_color_fail = 'yellow';
-if (alien_color_fail === 'green') {
+let alien_color_fail = "yellow";
+if (alien_color_fail === "green") {
     console.log("Congratulations! You just earned 5 points.");
+}
+// Assignment no 26
+// Version 1: Runs the if block (alien_color is 'green')
+let alien_color_if = "green";
+if (alien_color_if === "green") {
+    console.log("Congratulations! You just earned 5 points for shooting the alien.");
+}
+else {
+    console.log("Congratulations! You just earned 10 points.");
+}
+// Version 2: Runs the else block (alien_color is 'red')
+let alien_color_else = "red";
+if (alien_color_else === "green") {
+    console.log("Congratulations! You just earned 5 points for shooting the alien.");
+}
+else {
+    console.log("Congratulations! You just earned 10 points.");
+}
+// Assignment no 27
+// Version 1: Green alien
+let alien_color_1 = "green";
+if (alien_color_1 === "green") {
+    console.log("Congratulations! You just earned 5 points.");
+}
+else if (alien_color_1 === "yellow") {
+    console.log("Congratulations! You just earned 10 points.");
+}
+else if (alien_color_1 === "red") {
+    console.log("Congratulations! You just earned 15 points.");
+}
+// Version 2: Yellow alien
+let alien_color_2 = "yellow";
+if (alien_color_2 === "green") {
+    console.log("Congratulations! You just earned 5 points.");
+}
+else if (alien_color_2 === "yellow") {
+    console.log("Congratulations! You just earned 10 points.");
+}
+else if (alien_color_2 === "red") {
+    console.log("Congratulations! You just earned 15 points.");
+}
+// Version 3: Red alien
+let alien_color_3 = "red";
+if (alien_color_3 === "green") {
+    console.log("Congratulations! You just earned 5 points.");
+}
+else if (alien_color_3 === "yellow") {
+    console.log("Congratulations! You just earned 10 points.");
+}
+else if (alien_color_3 === "red") {
+    console.log("Congratulations! You just earned 15 points.");
+}
+// Assignment no 28
+let myAge = 19;
+if (myAge < 2) {
+    console.log("The person is a baby.");
+}
+else if (myAge >= 2 && myAge < 4) {
+    console.log("The person is a toddler.");
+}
+else if (myAge >= 4 && myAge < 13) {
+    console.log("The person is a kid.");
+}
+else if (myAge >= 13 && myAge < 20) {
+    console.log("The person is a teenager.");
+}
+else if (myAge >= 20 && myAge < 65) {
+    console.log("The person is an adult.");
+}
+else {
+    console.log("The person is an elder.");
+}
+// Assignment no 29
+const fruits_i_like = ["banana", "apple", "grapes"];
+// • Write five if statements. Each should check whether a certain kind of fruit is
+// in your array. If the fruit is in your array, the if block should print a statement,
+// such as You really like bananas!
+// Check for banana
+if (fruits_i_like.includes("banana")) {
+    console.log("You really like bananas!");
+}
+// Check for apple
+if (fruits_i_like.includes("apple")) {
+    console.log("You really like apples!");
+}
+// Check for grapes
+if (fruits_i_like.includes("grapes")) {
+    console.log("You really like grapes!");
+}
+// Check for orange
+if (fruits_i_like.includes("orange")) {
+    console.log("You really like oranges!");
+}
+// Check for mango
+if (fruits_i_like.includes("mango")) {
+    console.log("You really like mangoes!");
+}
+// Assignment no 30
+// Array of usernames
+const usernames = [
+    "zeeshan",
+    "Rehan",
+    "Mubeen",
+    "Fahad",
+    "Ayatullah",
+];
+for (const username of usernames) {
+    if (username.toLowerCase() === "zeeshan") {
+        console.log(`Hello ${usernames[0]}, would you like to see a status report?`);
+    }
+    else {
+        console.log(`Hello ${username}, thank you for logging in again.`);
+    }
+}
+// Assignment no 31
+const users = ["zeeshan", "Rehan", "Mubeen", "Fahad", "Ayatullah"];
+if (users.length > 0) {
+    for (const username of users) {
+        if (username.toLowerCase() === "zeeshan") {
+            console.log(`Hello ${users[0]}, would you like to see a status report?`);
+        }
+        else {
+            console.log(`Hello ${username}, thank you for logging in again.`);
+        }
+    }
+}
+else {
+    console.log("We need to find some users!");
+}
+users.length = 0;
+if (users.length === 0) {
+    console.log("The list of users is empty now.");
 }
