@@ -1,5 +1,19 @@
 {
   "devDependencies": {
     "@types/node": "^20.12.12"
-  }
+  },
+  "name": "typescript-45-assignments",
+  "description": "\"# Typescript_45_Assignments\"",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "dependencies": {
+    "undici-types": "^5.26.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
