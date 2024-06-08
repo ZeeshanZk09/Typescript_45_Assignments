@@ -1,4 +1,6 @@
 "use strict";
+// Assignment no 21
+console.log(`\n \n Assignment no 21 \n \n`);
 let course_we_study = {
     courseName: "Cloud Applied GenAI Engineering",
     location: "Governor House Sindh",
@@ -6,12 +8,14 @@ let course_we_study = {
 };
 console.log(course_we_study);
 // Assignment no 22
+console.log(`\n \n Assignment no 22 \n \n`);
 let errorArray = ["Apple", "Banana", "Carrot", "Dewberry"];
 //producing Error ! by Accessing invald index of array
 console.log(errorArray[10]);
 //Error removed
 console.log(errorArray[1]);
 // Assignment no 23
+console.log(`\n \n Assignment no 23 \n \n`);
 let car = "subaru";
 console.log("Is car == 'subaru'? I predict True.");
 console.log(car == "subaru");
@@ -49,6 +53,7 @@ console.log(4 < num2);
 console.log("\nTest 10: 70 is smaller than 40");
 console.log(70 < 40);
 // Assignment no 24
+console.log(`\n \n Assignment no 24 \n \n`);
 // • Tests for equality and inequality with strings
 let fruit = "banana";
 //Test 1
@@ -93,6 +98,7 @@ console.log('Test "ladyfinger" in the array: ', vegNames.includes("ladyfinger"))
 // • Test whether an item is not in an array
 console.log('Testing "tomato" is not in array: ', !vegNames.includes("tomato"));
 // Assignment no 25
+console.log(`\n \n Assignment no 25 \n \n`);
 // Version 1: Passes the if test (alien_color is 'green')
 let alien_color_pass = "green";
 if (alien_color_pass === "green") {
@@ -104,6 +110,7 @@ if (alien_color_fail === "green") {
     console.log("Congratulations! You just earned 5 points.");
 }
 // Assignment no 26
+console.log(`\n \n Assignment no 26 \n \n`);
 // Version 1: Runs the if block (alien_color is 'green')
 let alien_color_if = "green";
 if (alien_color_if === "green") {
@@ -121,6 +128,7 @@ else {
     console.log("Congratulations! You just earned 10 points.");
 }
 // Assignment no 27
+console.log(`\n \n Assignment no 27 \n \n`);
 // Version 1: Green alien
 let alien_color_1 = "green";
 if (alien_color_1 === "green") {
@@ -155,6 +163,7 @@ else if (alien_color_3 === "red") {
     console.log("Congratulations! You just earned 15 points.");
 }
 // Assignment no 28
+console.log(`\n \n Assignment no 28 \n \n`);
 let myAge = 19;
 if (myAge < 2) {
     console.log("The person is a baby.");
@@ -175,6 +184,7 @@ else {
     console.log("The person is an elder.");
 }
 // Assignment no 29
+console.log(`\n \n Assignment no 29 \n \n`);
 const fruits_i_like = ["banana", "apple", "grapes"];
 // • Write five if statements. Each should check whether a certain kind of fruit is
 // in your array. If the fruit is in your array, the if block should print a statement,
@@ -200,6 +210,7 @@ if (fruits_i_like.includes("mango")) {
     console.log("You really like mangoes!");
 }
 // Assignment no 30
+console.log(`\n \n Assignment no 30 \n \n`);
 // Array of usernames
 const usernames = [
     "zeeshan",

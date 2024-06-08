@@ -1,4 +1,6 @@
 // Assignment no 21
+console.log(`\n \n Assignment no 21 \n \n`);
+
 interface course_we_study {
     courseName: string;
     location: string;
@@ -14,6 +16,7 @@ interface course_we_study {
   console.log(course_we_study);
   
   // Assignment no 22
+console.log(`\n \n Assignment no 22 \n \n`);
   
   let errorArray: string[] = ["Apple", "Banana", "Carrot", "Dewberry"];
   
@@ -24,6 +27,8 @@ interface course_we_study {
   console.log(errorArray[1]);
   
   // Assignment no 23
+console.log(`\n \n Assignment no 23 \n \n`);
+
   let car = "subaru";
   console.log("Is car == 'subaru'? I predict True.");
   
@@ -74,6 +79,7 @@ interface course_we_study {
   console.log(70 < 40);
   
   // Assignment no 24
+console.log(`\n \n Assignment no 24 \n \n`);
   
   // • Tests for equality and inequality with strings
   let fruit: string = "banana";
@@ -144,6 +150,8 @@ interface course_we_study {
   console.log('Testing "tomato" is not in array: ', !vegNames.includes("tomato"));
   
   // Assignment no 25
+console.log(`\n \n Assignment no 25 \n \n`);
+
   // Version 1: Passes the if test (alien_color is 'green')
   let alien_color_pass: string = "green";
   
@@ -159,6 +167,8 @@ interface course_we_study {
   }
   
   // Assignment no 26
+console.log(`\n \n Assignment no 26 \n \n`);
+
   // Version 1: Runs the if block (alien_color is 'green')
   let alien_color_if: string = "green";
   
@@ -182,6 +192,8 @@ interface course_we_study {
   }
   
   // Assignment no 27
+console.log(`\n \n Assignment no 27 \n \n`);
+
   // Version 1: Green alien
   let alien_color_1: string = "green";
   
@@ -216,6 +228,8 @@ interface course_we_study {
   }
   
   // Assignment no 28
+console.log(`\n \n Assignment no 28 \n \n`);
+
   let myAge: number = 19;
   
   if (myAge < 2) {
@@ -233,6 +247,8 @@ interface course_we_study {
   }
   
   // Assignment no 29
+console.log(`\n \n Assignment no 29 \n \n`);
+
   const fruits_i_like: string[] = ["banana", "apple", "grapes"];
   
   // • Write five if statements. Each should check whether a certain kind of fruit is
@@ -265,6 +281,8 @@ interface course_we_study {
   }
   
   // Assignment no 30
+console.log(`\n \n Assignment no 30 \n \n`);
+
   // Array of usernames
   const usernames: string[] = [
     "zeeshan",

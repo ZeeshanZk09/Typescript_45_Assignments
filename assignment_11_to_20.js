@@ -1,5 +1,6 @@
 "use strict";
 // Assignment no 11
+console.log(`\n \n Assignment no 11 \n \n`);
 // array
 // defines an array of names
 let names = [
@@ -22,6 +23,7 @@ for (const friendNames of names) {
     console.log(friendNames);
 }
 // Assignment no 12
+console.log(`\n \n Assignment no 12 \n \n`);
 // by for loop
 for (let i = 0; i < names.length; i++) {
     console.log(`hello,${names[i]}! How are you today?`);
@@ -35,6 +37,7 @@ for (const friendNames of names) {
     console.log(`hello,${friendNames}! How are you today?`);
 }
 // Assignment no 13
+console.log(`\n \n Assignment no 13 \n \n`);
 let transportationMode = ["car", "motorcycle", "bicycle", "bus"];
 for (let i = 0; i < transportationMode.length; i++) {
     console.log(`I would like to own a ${transportationMode[i]}`);
@@ -43,6 +46,7 @@ transportationMode.forEach((mode) => {
     console.log(`I would like to own ${mode}`);
 });
 // Assignment no 14
+console.log(`\n \n Assignment no 14 \n \n`);
 // Define array of guest
 let guestlist = ["Adullah", "Zafar", "Muzafir", "Maheen"];
 // Invite each guest to dinner
@@ -57,6 +61,7 @@ invitation.forEach((invitations) => {
     console.log(invitations);
 });
 // Assignment no 15
+console.log(`\n \n Assignment no 15 \n \n`);
 // getting guestlist mentioned in assignment no 14
 // print the name who can't make dinner
 let unableAttent = guestlist.splice(1, 1)[0];
@@ -68,6 +73,7 @@ guestlist.forEach((newGuestList) => {
     console.log(`Dear ${newGuestList}, your are cordially invited to dinner `);
 });
 // Assignment no 16
+console.log(`\n \n Assignment no 16 \n \n`);
 // getting guestlist mentioned in assignment no 14
 console.log(`Great new! we found a bigger table`);
 // unshift
@@ -81,6 +87,7 @@ guestlist.forEach((Guest) => {
     console.log(`Dear ${Guest} you are cordially invited to dinner`);
 });
 // Assignment no 17
+console.log(`\n \n Assignment no 17 \n \n`);
 // getting guestlist mentioned in assignment no 14
 console.log(`Unfortunately! the new table won't arrive so I can invite only two guest because new table has not arrieved yet.`);
 guestlist.unshift("Alice", "Bob");
@@ -102,6 +109,7 @@ guestlist.splice(0, guestlist.length);
 // print updatedempty list
 console.log(`Updated list of guest: ${guestlist}`);
 // Assignment no 18
+console.log(`\n \n Assignment no 18 \n \n`);
 let placeToVisit = [
     "Al Makka",
     "Al Madina",
@@ -133,6 +141,7 @@ console.log(placeToVisit);
 console.log("Reverse Alphabetical Order changed:", placeToVisit.sort().reverse());
 console.log(placeToVisit);
 // Assignment no 19
+console.log(`\n \n Assignment no 19 \n \n`);
 //continue with Assignment_14
 //Guest list
 let guestList = ["Zeeshan", "Rehan", "Fahad"];
@@ -169,6 +178,7 @@ console.log(guestList);
 // ==> assignment_19
 console.log(`\nTotal number of guest is: ${guestList.length}`);
 // Assignment no 20
+console.log(`\n \n Assignment no 20 \n \n`);
 let computerAccesories = [
     "LED",
     "Keyboard",

@@ -1,4 +1,6 @@
 // Assignment no 11
+console.log(`\n \n Assignment no 11 \n \n`);
+
 // array
 // defines an array of names
 let names: string[] = [
@@ -22,6 +24,8 @@ let names: string[] = [
   }
   
   // Assignment no 12
+console.log(`\n \n Assignment no 12 \n \n`);
+
   // by for loop
   for (let i = 0; i < names.length; i++) {
     console.log(`hello,${names[i]}! How are you today?`);
@@ -36,6 +40,8 @@ let names: string[] = [
   }
   
   // Assignment no 13
+console.log(`\n \n Assignment no 13 \n \n`);
+
   let transportationMode: string[] = ["car", "motorcycle", "bicycle", "bus"];
   for (let i = 0; i < transportationMode.length; i++) {
     console.log(`I would like to own a ${transportationMode[i]}`);
@@ -45,6 +51,8 @@ let names: string[] = [
   });
   
   // Assignment no 14
+console.log(`\n \n Assignment no 14 \n \n`);
+
   // Define array of guest
   let guestlist: string[] = ["Adullah", "Zafar", "Muzafir", "Maheen"];
   // Invite each guest to dinner
@@ -62,6 +70,8 @@ let names: string[] = [
   });
   
   // Assignment no 15
+console.log(`\n \n Assignment no 15 \n \n`);
+
   // getting guestlist mentioned in assignment no 14
   // print the name who can't make dinner
   let unableAttent: string = guestlist.splice(1, 1)[0];
@@ -74,6 +84,8 @@ let names: string[] = [
   });
   
   // Assignment no 16
+console.log(`\n \n Assignment no 16 \n \n`);
+
   // getting guestlist mentioned in assignment no 14
   console.log(`Great new! we found a bigger table`);
   // unshift
@@ -88,6 +100,8 @@ let names: string[] = [
   });
   
   // Assignment no 17
+console.log(`\n \n Assignment no 17 \n \n`);
+
   // getting guestlist mentioned in assignment no 14
   console.log(
     `Unfortunately! the new table won't arrive so I can invite only two guest because new table has not arrieved yet.`
@@ -118,6 +132,8 @@ let names: string[] = [
   console.log(`Updated list of guest: ${guestlist}`);
   
   // Assignment no 18
+console.log(`\n \n Assignment no 18 \n \n`);
+
   let placeToVisit: string[] = [
     "Al Makka",
     "Al Madina",
@@ -153,6 +169,8 @@ let names: string[] = [
   console.log(placeToVisit);
   
   // Assignment no 19
+console.log(`\n \n Assignment no 19 \n \n`);
+
   //continue with Assignment_14
   //Guest list
   let guestList: string[] = ["Zeeshan", "Rehan", "Fahad"];
@@ -203,6 +221,8 @@ let names: string[] = [
   console.log(`\nTotal number of guest is: ${guestList.length}`);
   
   // Assignment no 20
+console.log(`\n \n Assignment no 20 \n \n`);
+
   let computerAccesories: string[] = [
     "LED",
     "Keyboard",
